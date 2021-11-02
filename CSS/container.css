@@ -1,0 +1,38 @@
+.bacc-page-container__inner-container {
+  max-width: 900px;
+  padding: 15px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+
+ .calendar-widget-expandable-list {
+  display: flex;
+ }
+
+ .calendar {
+   width: 90%;
+ }
+ iframe {
+  /* width:800%;  */
+  /* height:550px */
+ }
+
+ .expandable-list {
+   width: 30%;
+   font-size: .9rem;
+   padding: 0 10px;
+ }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bacc-page-container__inner-container {
+    max-width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .bacc-page-container__inner-container {
+    max-width: 1300px;
+  }
+}

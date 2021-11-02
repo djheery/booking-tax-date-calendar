@@ -1,0 +1,11 @@
+@media only screen and (min-width: 700px) {
+  .dropdown-list {
+    max-height: 0px;
+  }
+
+  .dropdown-list {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s ease-in-ou
+  }
+}
